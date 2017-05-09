@@ -17,12 +17,15 @@
     <debug>0</debug>
   </configuration>
   <group>
-    <name>FWLib</name>
+    <name>FWlib</name>
     <file>
       <name>$PROJ_DIR$\FWLib\source\stm8s_clk.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\FWLib\source\stm8s_gpio.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FWLib\source\stm8s_tim2.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\FWLib\source\stm8s_uart1.c</name>
@@ -44,6 +47,9 @@
     </file>
     <file>
       <name>$PROJ_DIR$\UserSTM8\Source\user_gpio.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\UserSTM8\Source\user_timer.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\UserSTM8\Source\user_uart1.c</name>

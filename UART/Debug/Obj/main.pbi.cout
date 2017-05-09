@@ -4,11 +4,11 @@
 -I
 E:\STM8s\UART\FWLib\include
 -I
-E:\STM8s\UART\Main
--I
 E:\STM8s\UART\User\include
 -I
 E:\STM8s\UART\UserSTM8\include
+-I
+E:\STM8s\UART\Main
 -I
 D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\stm8\inc
 -I
@@ -16,11 +16,11 @@ D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\stm8\inc\c
 -I
 E:\STM8s\UART\FWLib\include
 -I
-E:\STM8s\UART\Main
--I
 E:\STM8s\UART\User\include
 -I
 E:\STM8s\UART\UserSTM8\include
+-I
+E:\STM8s\UART\Main
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -230,7 +230,7 @@ E:\STM8s\UART\UserSTM8\include
 -D__IAR_COMPILERBASE__=594179
 -D_GOANNA=1
 -D__DATE__="May  9 2017"
--D__TIME__="21:12:59"
+-D__TIME__="21:27:05"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1
