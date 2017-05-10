@@ -2,7 +2,7 @@
 
 <workspace>
   <project>
-    <path>$WS_DIR$\UART_1.ewd</path>
+    <path>$WS_DIR$\UART_1.ewp</path>
   </project>
   <batchBuild/>
 </workspace>

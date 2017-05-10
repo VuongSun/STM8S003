@@ -1,4 +1,4 @@
-"E:\STM8s\UART\FWLib\source\stm8s_clk.c"
+"E:\STM8s\UART\FWLib\source\stm8s_it.c"
 -std=c99
 -ferror-limit=100
 -I

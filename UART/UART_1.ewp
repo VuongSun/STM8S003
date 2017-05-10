@@ -147,7 +147,7 @@
         </option>
         <option>
           <name>IccOptLevel</name>
-          <state>1</state>
+          <state>3</state>
         </option>
         <option>
           <name>IccOptStrategy</name>
@@ -156,12 +156,12 @@
         </option>
         <option>
           <name>IccOptLevelSlave</name>
-          <state>1</state>
+          <state>3</state>
         </option>
         <option>
           <name>IccOptAllowList</name>
           <version>0</version>
-          <state>000000</state>
+          <state>111111</state>
         </option>
         <option>
           <name>IccGenerateDebugInfo</name>
@@ -258,9 +258,9 @@
         <option>
           <name>CCIncludePath2</name>
           <state>E:\STM8s\UART\FWLib\include</state>
-          <state>E:\STM8s\UART\Main</state>
-          <state>E:\STM8s\UART\User\include</state>
           <state>E:\STM8s\UART\UserSTM8\include</state>
+          <state>E:\STM8s\UART\User\include</state>
+          <state>E:\STM8s\UART\Main</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -1590,12 +1590,15 @@
     </settings>
   </configuration>
   <group>
-    <name>FWLib</name>
+    <name>FWlib</name>
     <file>
       <name>$PROJ_DIR$\FWLib\source\stm8s_clk.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\FWLib\source\stm8s_gpio.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\FWLib\source\stm8s_tim2.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\FWLib\source\stm8s_uart1.c</name>
@@ -1617,6 +1620,9 @@
     </file>
     <file>
       <name>$PROJ_DIR$\UserSTM8\Source\user_gpio.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\UserSTM8\Source\user_timer.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\UserSTM8\Source\user_uart1.c</name>
